@@ -1,56 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luweeth Shop</title>
-    <link href="./public/images/icon.jpg" rel="shortcut icon" type="./public/images/vnd.microsoft.icon">
-    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./public/css/all.min.css">
-    <link rel="stylesheet" href="./public/css/layout.css">
+    <link href="./assets/images/icon.jpg" rel="shortcut icon" type="./assets/images/vnd.microsoft.icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
     <!-- javascript -->
-    <script src="./public/js/jquery.min.js"></script>
-    <script src="./public/js/owl.carousel.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
 </head>
-
-<body>
-    <section class="topbar border-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 ">
-                    Bạn cần trợ giúp: <a href="">0334822321</a>
-                </div>
-                <div class="col-md-3 text-end  ">
-                    <a href="index.php?option=customer-signup">
-                        Đăng ký</a>
-                </div>
-                <div class="col-md-3  ">
-                    <a href="index.php?option=customer-login">
-                        Đăng nhập</a>
-                </div>
-
+<section class="header">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-1 col-3 ">
+                <img src="./assets/images/Game Shop.png" alt="Logo" class="img-fluid">
             </div>
-    </section>
-    <section class="header">
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-1 col-3 ">
-                    <img src="./public/images/Game Shop.png" alt="Logo" class="img-fluid">
-                </div>
-                <div class="col-md-7 col-4 mx-0 my-2">
-                    <div class="input-group mb-3 my-3">
-                        <input type="search" class="form-control" placeholder="Tìm kiếm sản phẩm ..."
-                            aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2"><a href="#"><i
+            <div class="col-md-7 col-4 mx-0 my-2">
+                <div class="input-group mb-3 my-3">
+                    <input type="search" class="form-control" placeholder="Tìm kiếm sản phẩm ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><a href="#"><i
                                     class="fa-solid fa-magnifying-glass"></i></a></span>
-                    </div>
                 </div>
-                <div class="col-md-4 p-0 ">
-                    <div class="btn-group float-end me-3" role="group" aria-label="Basic outlined example">
-                        <button type="button" class="btn mt-md-2">
-                            <img src="./public/images/icon_hovercart.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4 p-0 ">
+                <div class="btn-group float-end me-3" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn mt-md-2">
+                            <img src="./assets/images/icon_hovercart.webp" alt="" class="img-fluid">
                             <span
                                 class="position-absolute bottom-10 start-500 translate-middle badge rounded-pill bg-warning">
                                 0+
@@ -60,8 +42,192 @@
                                     class="d-md-inline-block d-none my-auto ms-3 text-bl_gr">Giỏ
                                     hàng</a></span>
                         </button>
-                    </div>
                 </div>
             </div>
-    </section>
-    <!-- Header -->
+        </div>
+</section>
+
+</section>
+<section class="header">
+    <div class="container">
+        <div class="row ">
+        </div>
+        <div class="col-md-12 col-4 mx-0 my-2">
+            <div class="input-group mb-3 my-3">
+
+                <Link className="nav-link active" aria-current="page"> Trang chủ
+                </Link>
+                </li>
+                <li className="nav-item me-5">
+                    <Link className="nav-link" to="#"> Về Chúng tôi
+                    </Link>
+                </li>
+                <li className="nav-item dropdown me-5">
+                    <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Sản phẩm
+                    </Link>
+                    <!-- <ul className="dropdown-menu">
+                        <li>
+                            <Link className="dropdown-item" to="/san-pham"> Tất cả sản phẩm
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="dropdown-item" to="#"> Sản phẩm theo danh mục
+                            </Link>
+                        </li>
+                        <li>
+                            <hr className="dropdown-divider" />
+                        </li>
+                        <li>
+                            <Link className="dropdown-item" to="#"> Something else here
+                            </Link>
+                        </li>
+                    </ul> -->
+                </li>
+                <li className="nav-item me-5">
+                    <Link className="nav-link text-warning" to="#"> Sale
+                    </Link>
+                </li>
+                <li className="nav-item me-5">
+                    <Link className="nav-link " to="#"> News
+                    </Link>
+                </li>
+                </ul>
+            </div>
+</section>
+
+<section class="footer mt-5 ">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block ">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <!-- <div>
+                <a href="https://www.facebook.com/lechunn09/ " target="_blank " class="me-4 text-reset ">
+                    <i class="fab fa-facebook-f "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="fab fa-twitter "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="fab fa-google "></i>
+                </a>
+                <a href="https://www.instagram.com/catnoob_09/ " class="me-4 text-reset ">
+                    <i class="fab fa-instagram "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="fab fa-linkedin "></i>
+                </a>
+                <a href=" " class="me-4 text-reset ">
+                    <i class="fab fa-github "></i>
+                </a>
+            </div> -->
+            <!-- Right -->
+        </section>
+
+        <!-- Section: Links  -->
+        <section class=" ">
+            <div class="container text-center text-md-start mt-5 ">
+                <!-- Grid row -->
+                <div class="row mt-3 ">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 ">
+                            <a href="# "><img src="./assets/images/Game Shop.png " alt="Logo " width="200px " height="200px "></a>
+                        </h6>
+                        <p>
+                            Đơn vị chủ quản: Siêu thị điện thử Luweeth Mobile: 19002321
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 ">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#! " class="text-reset ">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">React</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 ">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#! " class="text-reset ">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#! " class="text-reset ">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 ">Contact</h6>
+                        <p><i class="fas fa-home me-3 "></i> 181 Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh</p>
+                        <p>
+                            <i class="fas fa-envelope me-3 "></i> contact@luweeth.vn
+                        </p>
+                        <p><i class="fas fa-phone me-3 "></i> +84 334822321</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05); ">
+            © 2024 Copyright: By tranlehung
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</section>
+<!-- footer -->
+<!-- <div class="list-fixed product-sale position-fixed ">
+    <div>
+        <a href="tel:0334822321 "><img src="http://t0338.store.nhanh.vn/tp/T0338/img/widget_icon_click_to_call.svg " alt="callnow "></a>
+    </div>
+    <div>
+        <a href="http://m.me/lechunn09 "><img src="http://t0338.store.nhanh.vn/tp/T0338/img/widget_icon_messenger.svg " alt="callnow "></a>
+    </div>
+    <div>
+        <a href="http://zaloapp.com/qr/p/13gbcfefnlyn "><img src="http://t0338.store.nhanh.vn/tp/T0338/img/widget_icon_zalo.svg " alt="callnow "></a>
+    </div>
+    <div class="com-home ">
+        <a href="index.php "><i class="fa-solid fa-house "></i></a>
+    </div> -->
+<!-- </div> -->
+<script src="./assets/js/bootstrap.bundle.js "></script>
+</body>
+
+</html>
